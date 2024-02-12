@@ -1,4 +1,4 @@
-```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -11,4 +11,3 @@ sequenceDiagram
     Note right of server: The Content-Type header of the request tell the server that the included data is represented in JSON format.
     The SPA version of the app does not traditionally send the form data, but instead uses the JavaScript code it fetched from the server.
     Then the event handler creates a new note, adds it to the notes list with the command notes.push(note), rerenders the note list on the page and sends the new note to the server. The data is sent as JSON string as determined with a Content-type header.
-```
