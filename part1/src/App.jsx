@@ -25,6 +25,8 @@ function Total(props) {
     </div>
   )
 }
+ 
+
 
 
 function App() {
@@ -54,6 +56,7 @@ function App() {
       <Header course={course} />
       <Content parts={parts}/>
       <Total parts={parts} />
+      
     </div>
   )
 }
